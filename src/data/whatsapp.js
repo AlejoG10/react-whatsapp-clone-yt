@@ -187,7 +187,7 @@ export const messagesData = [
   {
     msg: "Keep it up! 👍👍👍",
     time: "10:59 am",
-    sent: false,
+    sent: true,
   },
   {
     msg: "Thanks a lot! 😀",
