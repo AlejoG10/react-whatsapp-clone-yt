@@ -36,7 +36,7 @@ function Chat({ pp, contact, msg, time, unreadMsgs, active }) {
           {/* Number of messages */}
           {unreadMsgs && (
             <div className="flex justify-center items-center bg-emerald-500 rounded-full w-[20px] h-[20px]">
-              <p className="text-emerald-900">{unreadMsgs}</p>
+              <span className="text-emerald-900">{unreadMsgs}</span>  //flex is issueing when using p tag
             </div>
           )}
         </div>
