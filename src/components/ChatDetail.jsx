@@ -86,10 +86,10 @@ function ChatDetail() {
           {/* Info */}
           <div className="flex flex-col">
             {/* Contact */}
-            <h1 className="text-white font-medium">Coding Spot</h1>
+            <span className="text-white font-medium">Coding Spot</h1>
 
             {/* Status */}
-            <p className="text-[#8796a1] text-xs">online</p>
+            <span className="text-[#8796a1] text-xs">online</p>
           </div>
         </div>
 
